@@ -1,8 +1,8 @@
-import React from 'react'; // ¤Ş¤J React¡A¥Î©ó¨Ï¥Î JSX »yªk©M React ¥\¯à
-import ReactDOM from 'react-dom/client'; // ¤Ş¤J ReactDOM¡A¥Î©ó±N React ¤¸¥ó´è¬V¨ì DOM ¤¤
-import App from './App'; // ¤Ş¤J¥D¤¸¥ó `App`¡A¬OÀ³¥Îªº®Ú¤¸¥ó
-import './styles.css'; // ¤Ş¤JÀ³¥Îªº¼Ë¦¡ªí
+import React from 'react'; // å¼•å…¥ Reactï¼Œç”¨æ–¼ä½¿ç”¨ JSX èªæ³•å’Œ React åŠŸèƒ½
+import ReactDOM from 'react-dom/client'; // å¼•å…¥ ReactDOMï¼Œç”¨æ–¼å°‡ React å…ƒä»¶æ¸²æŸ“åˆ° DOM ä¸­
+import App from './App'; // å¼•å…¥ä¸»å…ƒä»¶ `App`ï¼Œæ˜¯æ‡‰ç”¨çš„æ ¹å…ƒä»¶
+import './intro.css'; // å¼•å…¥æ‡‰ç”¨çš„æ¨£å¼è¡¨
 
-// ³Ğ«Ø¤@­Ó React ®Ú®e¾¹¡A¨Ã±N `App` ¤¸¥ó´è¬V¨ì¦ì©ó public/index.html ¤¤ªº #root DOM ¸`ÂI
+// å‰µå»ºä¸€å€‹ React æ ¹å®¹å™¨ï¼Œä¸¦å°‡ `App` å…ƒä»¶æ¸²æŸ“åˆ°ä½æ–¼ public/index.html ä¸­çš„ #root DOM ç¯€é»
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />); // ¨Ï¥Î JSX »yªk±N `App` ¤¸¥ó´è¬V¨ì­¶­±¤W
+root.render(<App />); // ä½¿ç”¨ JSX èªæ³•å°‡ `App` å…ƒä»¶æ¸²æŸ“åˆ°é é¢ä¸Š

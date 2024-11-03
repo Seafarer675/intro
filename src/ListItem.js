@@ -1,10 +1,10 @@
-import React from 'react'; // ¤Ş¤J React¡A¥Î©ó¨Ï¥Î JSX »yªk
+import React from 'react'; // å¼•å…¥ Reactï¼Œç”¨æ–¼ä½¿ç”¨ JSX èªæ³•
 
-// ©w¸q `ListItem` ¨ç¦¡¤¸¥ó¡A±µ¦¬ `text` Äİ©Ê§@¬°°Ñ¼Æ
+// å®šç¾© `ListItem` å‡½å¼å…ƒä»¶ï¼Œæ¥æ”¶ `text` å±¬æ€§ä½œç‚ºåƒæ•¸
 function ListItem({ text }) {
-    // ªğ¦^¤@­Ó¦Cªí¶µ `<li>`¡AÅã¥Ü `text` ªº¤º®e
+    // è¿”å›ä¸€å€‹åˆ—è¡¨é … `<li>`ï¼Œé¡¯ç¤º `text` çš„å…§å®¹
     return <li>{text}</li>;
 }
 
-// ±N `ListItem` ¤¸¥ó³]¬°¹w³]¾É¥X¡A¨Ñ¨ä¥L¤å¥ó¾É¤J¨Ï¥Î
+// å°‡ `ListItem` å…ƒä»¶è¨­ç‚ºé è¨­å°å‡ºï¼Œä¾›å…¶ä»–æ–‡ä»¶å°å…¥ä½¿ç”¨
 export default ListItem;

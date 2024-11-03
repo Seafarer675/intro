@@ -1,25 +1,25 @@
-/* À³¥Î¥D®e¾¹ªº¼Ë¦¡ */
+/* æ‡‰ç”¨ä¸»å®¹å™¨çš„æ¨£å¼ */
 .app-container {
-    text-align: center; /* ±N¤å¥»¹ï»ô¨ì¤¤¶¡ */
-    font-family: Arial, sans-serif; /* ³]©w¦rÅé */
+    text-align: center; /* å°‡æ–‡æœ¬å°é½Šåˆ°ä¸­é–“ */
+    font-family: Arial, sans-serif; /* è¨­å®šå­—é«” */
 }
 
-/* «ö¶s¼Ë¦¡ */
+/* æŒ‰éˆ•æ¨£å¼ */
 button {
-    margin-top: 10px; /* «ö¶s»P¤W¤è¤¸¯Àªº¶¡¶Z */
-    padding: 10px 20px; /* «ö¶s¤ºªºÃä¶Z */
-    font-size: 16px; /* ¦rÅé¤j¤p */
-    cursor: pointer; /* ·Æ¹«Äa°±®ÉÅã¥Ü«ü°w */
+    margin-top: 10px; /* æŒ‰éˆ•èˆ‡ä¸Šæ–¹å…ƒç´ çš„é–“è· */
+    padding: 10px 20px; /* æŒ‰éˆ•å…§çš„é‚Šè· */
+    font-size: 16px; /* å­—é«”å¤§å° */
+    cursor: pointer; /* æ»‘é¼ æ‡¸åœæ™‚é¡¯ç¤ºæŒ‡é‡ */
 }
 
-/* µL§Ç¦Cªíªº¼Ë¦¡ */
+/* ç„¡åºåˆ—è¡¨çš„æ¨£å¼ */
 ul {
-    list-style-type: none; /* ²¾°£¹w³]ªº¶µ¥Ø²Å¸¹ */
-    padding: 0; /* ²¾°£¤ºÃä¶Z */
+    list-style-type: none; /* ç§»é™¤é è¨­çš„é …ç›®ç¬¦è™Ÿ */
+    padding: 0; /* ç§»é™¤å…§é‚Šè· */
 }
 
-/* ¦Cªí¶µªº¼Ë¦¡ */
+/* åˆ—è¡¨é …çš„æ¨£å¼ */
 li {
-    margin: 5px 0; /* ¶µ¥Ø¤§¶¡ªº««ª½¶¡¶Z */
-    font-size: 18px; /* ¦rÅé¤j¤p */
+    margin: 5px 0; /* é …ç›®ä¹‹é–“çš„å‚ç›´é–“è· */
+    font-size: 18px; /* å­—é«”å¤§å° */
 }
