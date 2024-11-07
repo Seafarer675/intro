@@ -1,7 +1,17 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=LXGW+WenKai+Mono+TC&family=Permanent+Marker&display=swap');
+
+
+
 /* 應用主容器的樣式 */
-.app-container {
-    text-align: center; /* 將文本對齊到中間 */
-    font-family: Arial, sans-serif; /* 設定字體 */
+body {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(146, 187, 245, 0.604);
 }
 
 /* 按鈕樣式 */
@@ -11,15 +21,43 @@ button {
     font-size: 16px; /* 字體大小 */
     cursor: pointer; /* 滑鼠懸停時顯示指針 */
 }
-
+nav a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+    
+}
+nav a:hover{
+    
+    color: white;
+}
 /* 無序列表的樣式 */
-ul {
-    list-style-type: none; /* 移除預設的項目符號 */
+nav ul {
+    list-style: none; /* 移除預設的項目符號 */
     padding: 0; /* 移除內邊距 */
+    margin: 0;
+    float: left;
+    background-color: rgba(178, 205, 244, 0.981);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* 列表項的樣式 */
-li {
-    margin: 5px 0; /* 項目之間的垂直間距 */
-    font-size: 18px; /* 字體大小 */
+nav li {
+    padding-right: 10px; 
+    font-size: 18px; 
 }
+
+h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 450%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+   
