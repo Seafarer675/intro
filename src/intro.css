@@ -60,4 +60,58 @@ h1{
     margin-bottom: 0;
 }
 
-   
+h2{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 3px;
+    padding-left: 3px;
+    
+}
+
+.myself, .education, .expertise, .experience, .activity, .autobiography, .portfolio {
+    position: relative;
+    margin-top: 50px;       /* 每個區塊之間有適當間距 */
+    padding: 20px;          /* 增加內邊距 */
+    left: 10%;
+    border-top: 2px solid beige;
+    display: flex;
+    align-items: flex-start; /* 讓每個區塊內部靠上對齊 */
+    width: 80%;
+}
+
+.myself{
+    margin-top: 100px;
+}
+.portfolio{
+    border-bottom: 2px solid beige;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    min-width: 150px;       /* 為左側欄設置一致的寬度，確保對齊 */
+    text-align: left;       /* 左對齊文字 */
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;    /* 垂直居中 */
+    text-align: left;       /* 文字左對齊 */
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;       /* 提升行距讓文字更舒適 */
+}
+
+img{
+    width: 30%;
+    height: auto;
+    padding-left: 200px;
+}
