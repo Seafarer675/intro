@@ -115,3 +115,24 @@ img{
     height: auto;
     padding-left: 200px;
 }
+
+.image{
+    display: flex;
+    align-items:flex-start;
+    justify-content: right;
+}
+
+.image p {
+    margin-right: 10px; /* 調整文字和圖片之間的間距 */
+    text-align: left;
+}
+
+.image img {
+    max-width: 500px; /* 限制圖片的寬度 */
+}
+
+a{
+    color:gray;
+    text-decoration:underline;
+    font-size: 1.2rem;
+}

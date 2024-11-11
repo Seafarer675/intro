@@ -1,4 +1,4 @@
-import a from "./01.jpg"
+import a from "./images/01.jpg"
 function MySelf(){
     return <div className="myself" id="myself">
         <div className="left">
