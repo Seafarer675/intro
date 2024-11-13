@@ -6,6 +6,17 @@ import f from './images/06.png'
 import g from './images/07.png'
 import h from './images/08.png'
 import i from './images/09.png'
+import j from './images/10.png'
+import k from './images/11.png'
+import l from './images/12.png'
+import m from './images/13.png'
+import n from './images/14.png'
+import o from './images/15.png'
+import p from './images/16.png'
+import q from './images/17.png'
+import r from './images/18.png'
+import s from './images/19.png'
+import t from './images/20.png'
 
 
 function Portfolio(){
@@ -66,6 +77,7 @@ function Portfolio(){
                 
                 <br/>
                 <br/>
+                <hr/>
                 <strong>2. 台中市各區里人口組成 | 網頁</strong>
                 <br/>
                 <br/>
@@ -119,9 +131,130 @@ function Portfolio(){
                 過程中遇到的 CORS 問題及 404 錯誤，雖然感覺繞了一大圈透過將資料佈署到 GitHub Pages 及設置虛擬主機來解決，但也讓我學到了排除問題不一定只有一種固定的方法。
                 這次與團員開發的經驗教會我如何分工與有效溝通，以確保整體開發流程順暢。從資料整理、API 串接，到使用 Echart 圓餅圖進行視覺化呈現，這些經歷讓我更有信心應對未來類似的挑戰。
                 
+                <br/>
+                <br/>
+                <hr/>
+                <strong>3. Pet Diary | 網頁</strong>
+                <br/>
+                <br/>
+                <b>3.1 摘要</b>
+                <br/>
+                這是一個寵物日記網頁，在主頁面有6種常見寵物的介紹，可以讓想要飼養寵物的人有些基本的了解。有註冊及登入的功能，
+                使用者可以透過登入來新增、修改、查看與刪除日記。
+                <br/>
+                <br/>
+                <b>3.2 問題與解決方法</b>
+                <br/>
+                開發過程中，我將登入、登出、登入狀態、新增日記、查看及修改日記，各寫一支php檔，為了能讓資料在這些php檔之間傳遞，由於需要較高的安全性與容量，故我選擇用session的方式，
+                來儲存與傳遞使用者資料。而持續監控使用者的登入狀態則是透過javascript的setInterval()來達成，讓其在每秒都執行登入狀態的php檔，來查看使用者是否登入。
+
+                <br/>
+                <br/>
+                <b>3.3 成果</b>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.1</strong> 右圖是網頁的主畫面，有6種常見寵物的間單介紹，可透過下方兩個滑動按鈕來選擇欲察看的動物品種。右上角有登入/登出的按鈕，
+                    右下角則有新增與編輯日記的按鈕可供點選。</p>
+                    <img src={j}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.2</strong> 右圖為按下簡介中的read more按鈕後，所跳轉的頁面，可供查看更多該品種的飼養須知。</p>
+                    <img src={k}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.3</strong> 右圖為登入畫面，會根據使用者輸入的帳號密碼資訊來給予不同的回覆，若帳號密碼正確則顯示登入成功，密碼輸入錯誤則顯示密碼錯誤，
+                    找不到使用者會顯示使用者不存在，並跳轉置註冊頁面。</p>
+                    <img src={l}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.4</strong> 右圖為註冊頁面，自行輸入帳號與密碼即可使用本網頁。</p>
+                    <img src={m}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.5</strong> 右圖為新增日記頁面，透過選取日期，即可在當日新增日記。</p>
+                    <img src={n}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.6</strong> 右圖為修改日記頁面，可以透過選擇日期來查看、修改或刪除該日期的日記。</p>
+                    <img src={o}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>3.3.7</strong> 右圖為登入狀態的監控，透過setInterval()方法來實作每秒監控登入狀態。</p>
+                    <img src={p}></img>
+                </div>
+                <br/>
+                
+                <p>完整程式碼請按此(Github):<a href='https://github.com/Seafarer675/pet_diary.git'>網頁程式碼</a></p>
+                <br/>
+                <br/>
+                <b>3.4 經驗</b>
+                <br/>
+                這是我第一次獨立開發包含前端、後端及資料庫操作的專案。在開發過程中，我實現了資料庫的新增、查看、修改、刪除操作。登入功能則簡單地將使用者輸入的資料與資料庫中的資料進行比對，來確認用戶身份。
+                在設計介面時，我強化了對 CSS 的運用，包括頁面布局、按鈕的互動設計等。這次專案也使我學習到 PHP 的 session 管理，特別是對安全性和資料存取的考量。
+                還有如何運用 JavaScript 的 setInterval() 方法來檢查登入狀態，保證了用戶體驗的流暢度。這次的開發經驗，使我對全端開發有了初步的認識，為日後的全端開發工作奠定基礎。
+                
+                <br/>
+                <br/>
+                <hr/>
+                <strong>4. LSTM實作 | Python (進行中)</strong>
+                <br/>
+                <br/>
+                <b>4.1 摘要</b>
+                <br/>
+                這是我與專題組員一起進行的專題題目，主要是實作RNN的LSTM模型，該模型是用於時序數據的預測，目前採用加州房價資料集進行測試。
+                <br/>
+                <br/>
+                <b>4.2 問題與解決方法</b>
+                <br/>
+                為了提高模型的準確性和加速其收斂，我們選擇在訓練前對資料進行標準化，其能使數據分佈在同一範圍內，避免因特徵值的數量級差異而造成的學習速度不一致，以及某些特徵因數值範圍較大而對模型造成過度影響，
+                從而加快模型訓練的收斂速度與提高預測的準確度。我們還進行批次化的訓練，用以縮短訓練的時間以及穩定模型。目前我的模型遇到準確度不夠的問題，在透過查詢資料與詢問教授後，發現有過擬合的問題，
+                下一步計畫是加入早停機制來防止過擬合的情況。
+                <br/>
+                <br/>
+                <b>4.3 成果</b>
+                <br/>
+                <div className='image'>
+                    <p><strong>4.3.1</strong> 右圖為LSTM主要兩要件，前向傳播與後向傳播的程式碼</p>
+                    <img src={q}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>4.3.2</strong> 右圖是預測值與真實值的比較，可以發現僅有一些資料的預測值較接近真實值，大部分都沒成功預測。</p>
+                    <img src={s}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>4.3.3</strong> 右圖是進行訓練時的損失值，看起來沒有什麼問題，但預測時的準確度卻不高，從此即可判斷出發生過擬合的情況。</p>
+                    <img src={r}></img>
+                </div>
+                <br/>
+                <div className='image'>
+                    <p><strong>4.3.4</strong> 右圖上方是訓練時與預測時的平均損失函數，下方為預測值與真實值的數字，只取前面10筆，可見現在該模型的確度還有待加強。</p>
+                    <img src={t}></img>
+                </div>
+                <br/>
+                
+                <p>完整程式碼請按此(Github):<a href='https://github.com/Seafarer675/LSTM.git'>網頁程式碼</a></p>
+                <br/>
+                <br/>
+                <b>4.4 經驗</b>
+                <br/>
+                在這個 LSTM 實作專案中，我了解到並學會使用數據標準化和批次化訓練的技巧，這有助於提高模型的準確度並縮短訓練時間。過程中，我遇到了過擬合問題，並計劃通過加入早停機制來改善模型表現。
+                與專題組員的合作讓我深入了解了深度學習框架的使用，同時增強了解決問題和團隊協作的能力。
             </p>
         </div>
         
     </div>
 }
 export default Portfolio;
+
+
+
+
+
