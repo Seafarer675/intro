@@ -241,7 +241,6 @@ function Portfolio(){
                 <br/>
                 
                 <p>完整專題介紹:<a href='https://sites.google.com/mail.nknu.edu.tw/projects/%E6%AD%B7%E5%B1%86%E5%B0%88%E9%A1%8C/113%E5%B9%B4/%E5%BE%9E%E5%BA%95%E5%B1%A4%E5%AF%A6%E4%BD%9C%E9%95%B7%E7%9F%AD%E6%9C%9F%E8%A8%98%E6%86%B6%E6%A8%A1%E5%9E%8B?authuser=0'>專題報告</a></p>
-                <br/>
                 <p>完整程式碼請按此(Github):<a href = 'https://github.com/Seafarer675/LSTM.git'>專題程式碼</a></p>
                 <br/>
                 <b>4.4 經驗</b>
