@@ -6,7 +6,7 @@ function Education(){
         </div>
         <div className="right">
             <p className="text">
-                高雄師範大學 軟體工程與管理學系 | 2021 - 至今 <br/> 宜寧高中 普通科 | 2018 - 2021
+                高雄師範大學 軟體工程與管理學系 | 2021 - 2025 <br/> 宜寧高中 普通科 | 2018 - 2021
             </p>
         </div>
         

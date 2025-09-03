@@ -1,138 +1,208 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Permanent+Marker&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=LXGW+WenKai+Mono+TC&family=Permanent+Marker&display=swap');
 
-
-
-/* 應用主容器的樣式 */
+/* 全域設定 */
 body {
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: 400;
     font-style: normal;
     background-color: rgba(146, 187, 245, 0.604);
+    margin: 0;
+    padding: 0;
 }
 
 /* 按鈕樣式 */
 button {
-    margin-top: 10px; /* 按鈕與上方元素的間距 */
-    padding: 10px 20px; /* 按鈕內的邊距 */
-    font-size: 16px; /* 字體大小 */
-    cursor: pointer; /* 滑鼠懸停時顯示指針 */
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
-nav a{
+
+/* 導覽列 */
+nav a {
     color: inherit;
     text-decoration: none;
     font-size: 1.2rem;
-    
-    
 }
-nav a:hover{
-    
+
+nav a:hover {
     color: white;
 }
-/* 無序列表的樣式 */
+
 nav ul {
-    list-style: none; /* 移除預設的項目符號 */
-    padding: 0; /* 移除內邊距 */
+    list-style: none;
+    padding: 0;
     margin: 0;
-    float: left;
     background-color: rgba(178, 205, 244, 0.981);
-    width: 100%;
     display: flex;
+    flex-wrap: wrap; /* 小螢幕自動換行 */
     justify-content: space-around;
 }
 
-/* 列表項的樣式 */
 nav li {
-    padding-right: 10px; 
-    font-size: 18px; 
+    padding: 10px;
+    font-size: 18px;
 }
 
-h1{
+/* 標題樣式 */
+h1 {
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 450%;
+    font-size: 3rem;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
-h2{
+h2 {
     font-size: 30px;
     margin-bottom: 3px;
 }
 
-h3{
+h3 {
     font-size: 20px;
     margin-top: 3px;
     padding-left: 3px;
-    
 }
 
-.myself, .education, .expertise, .experience, .activity, .autobiography, .portfolio {
-    position: relative;
-    margin-top: 50px;       /* 每個區塊之間有適當間距 */
-    padding: 20px;          /* 增加內邊距 */
-    left: 10%;
+/* 各內容區塊 */
+.myself,
+.education,
+.expertise,
+.experience,
+.activity,
+.autobiography,
+.portfolio {
+    margin-top: 50px;
+    padding: 20px;
     border-top: 2px solid beige;
     display: flex;
-    align-items: flex-start; /* 讓每個區塊內部靠上對齊 */
-    width: 80%;
+    flex-wrap: wrap; /* 自動換行 */
+    gap: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.myself{
+.myself {
     margin-top: 100px;
 }
-.portfolio{
+
+.portfolio {
     border-bottom: 2px solid beige;
 }
 
+/* 左右欄位 */
 .left {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
-    min-width: 150px;       /* 為左側欄設置一致的寬度，確保對齊 */
-    text-align: left;       /* 左對齊文字 */
+    margin-right: 20px;
+    min-width: 150px;
+    text-align: left;
 }
 
 .right {
     flex: 1;
     display: flex;
-    align-items: center;    /* 垂直居中 */
-    text-align: left;       /* 文字左對齊 */
+    align-items: center;
+    text-align: left;
 }
 
 .text {
     font-size: 18px;
-    line-height: 1.6;       /* 提升行距讓文字更舒適 */
+    line-height: 1.6;
 }
-
-img{
-    width: 30%;
-    height: auto;
-    padding-left: 200px;
-}
-
-.image{
+.myself_image {
     display: flex;
-    align-items:flex-start;
-    justify-content: right;
+    align-items: flex-start; /* 垂直靠上 */
+    justify-content: flex-end;
+    width: 35%;      /* 圖片區域固定比例 */
+    max-width: 400px; /* 最大寬度 */
+    height: auto;
+    display: block;
+    
+}
+/* 圖片區塊：文字左、圖片右 */
+.image {
+    display: flex;
+    flex-direction: row; /* 水平排列 */
+    align-items: flex-start; /* 垂直靠上 */
+    justify-content: space-between; /* 左右拉開 */
 }
 
 .image p {
-    margin-right: 10px; /* 調整文字和圖片之間的間距 */
+    margin: 0;
     text-align: left;
+    width: 60%; /* 文字區域固定寬度，避免太短壓縮圖片 */
 }
 
 .image img {
-    max-width: 500px; /* 限制圖片的寬度 */
+    width: 35%; /* 圖片固定寬度，靠右 */
+    height: auto;
+    display: block;
 }
 
-a{
-    color:gray;
-    text-decoration:underline;
+/* 超連結 */
+a {
+    color: gray;
+    text-decoration: underline;
     font-size: 1.2rem;
+}
+
+/* 響應式調整 */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    nav li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .myself,
+    .education,
+    .expertise,
+    .experience,
+    .activity,
+    .autobiography,
+    .portfolio {
+        flex-direction: column; /* 小螢幕直排 */
+        align-items: flex-start;
+    }
+    .left, .right {
+        width: 100%;
+        margin-right: 0;
+    }
+    .image {
+        flex-direction: column; /* 直排 */
+        align-items: flex-start;
+    }
+    .image p, .image img {
+        width: 100%; /* 滿寬顯示 */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }

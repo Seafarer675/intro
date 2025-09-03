@@ -46,23 +46,23 @@ function Portfolio(){
                 <b>1.3 成果</b>
                 <br/>
                 <div className='image'>
-                    <p><strong>1.3.1</strong> 右圖是遊戲的主畫面，寫著遊玩方式與遊戲規則，以及按下任意鍵即可開始遊玩。</p>
+                    <p><strong>1.3.1</strong> 遊戲的主畫面，寫著遊玩方式與遊戲規則，以及按下任意鍵即可開始遊玩。</p>
                     <img src={b}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>1.3.2</strong> 右圖是遊戲的遊玩畫面，左上角的綠色長條是血量，中間上方的數字是分數。畫面會隨機出現八戒與三藏，
+                    <p><strong>1.3.2</strong> 遊戲的遊玩畫面，左上角的綠色長條是血量，中間上方的數字是分數。畫面會隨機出現八戒與三藏，
                         會依撞擊到的角色來判定是加分或扣血。</p>
                     <img src={c}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>1.3.3</strong> 右圖是遊戲的結算畫面，會有該局遊戲所得的分數，及提示玩家按下滑鼠可回到主畫面，或是按下右上角的叉叉關閉視窗。</p>
+                    <p><strong>1.3.3</strong> 遊戲的結算畫面，會有該局遊戲所得的分數，及提示玩家按下滑鼠可回到主畫面，或是按下右上角的叉叉關閉視窗。</p>
                     <img src={d}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>1.3.4</strong> 右圖是遊戲片段程式碼，是遊戲的主要迴圈，包含了初始化界面、取得輸入、更新遊戲等重要功能。</p>
+                    <p><strong>1.3.4</strong> 遊戲片段程式碼，是遊戲的主要迴圈，包含了初始化界面、取得輸入、更新遊戲等重要功能。</p>
                     <img src={e}></img>
                 </div>
                 <br/>
@@ -102,12 +102,12 @@ function Portfolio(){
                 <b>2.4 成果</b>
                 <br/>
                 <div className='image'>
-                    <p><strong>2.4.1</strong> 右圖是網頁的主畫面，左半部為查詢的關聯選單，右半部為人口統計的比較，有各齡層與性別，最多和最少人的區域</p>
+                    <p><strong>2.4.1</strong> 網頁的主畫面，左半部為查詢的關聯選單，右半部為人口統計的比較，有各齡層與性別，最多和最少人的區域</p>
                     <img src={f}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>2.4.2</strong> 右圖為可供查詢的關聯選單，當在上方選擇特定的行政區後，下方選單內容會變為該行政區所管轄的里</p>
+                    <p><strong>2.4.2</strong> 可供查詢的關聯選單，當在上方選擇特定的行政區後，下方選單內容會變為該行政區所管轄的里</p>
                     <img src={g}></img>
                 </div>
                 <br/>
@@ -117,7 +117,7 @@ function Portfolio(){
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>2.4.4</strong> 右圖為查看更多內容的頁面，內容有該區的兩性年齡組成、性別比以及各年齡層的性別比。</p>
+                    <p><strong>2.4.4</strong> 查看更多內容的頁面，內容有該區的兩性年齡組成、性別比以及各年齡層的性別比。</p>
                     <img src={i}></img>
                 </div>
                 <br/>
@@ -153,39 +153,39 @@ function Portfolio(){
                 <b>3.3 成果</b>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.1</strong> 右圖是網頁的主畫面，有6種常見寵物的間單介紹，可透過下方兩個滑動按鈕來選擇欲察看的動物品種。右上角有登入/登出的按鈕，
+                    <p><strong>3.3.1</strong> 網頁的主畫面，有6種常見寵物的間單介紹，可透過下方兩個滑動按鈕來選擇欲察看的動物品種。右上角有登入/登出的按鈕，
                     右下角則有新增與編輯日記的按鈕可供點選。</p>
                     <img src={j}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.2</strong> 右圖為按下簡介中的read more按鈕後，所跳轉的頁面，可供查看更多該品種的飼養須知。</p>
+                    <p><strong>3.3.2</strong> 按下簡介中的read more按鈕後，所跳轉的頁面，可供查看更多該品種的飼養須知。</p>
                     <img src={k}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.3</strong> 右圖為登入畫面，會根據使用者輸入的帳號密碼資訊來給予不同的回覆，若帳號密碼正確則顯示登入成功，密碼輸入錯誤則顯示密碼錯誤，
+                    <p><strong>3.3.3</strong> 登入畫面，會根據使用者輸入的帳號密碼資訊來給予不同的回覆，若帳號密碼正確則顯示登入成功，密碼輸入錯誤則顯示密碼錯誤，
                     找不到使用者會顯示使用者不存在，並跳轉置註冊頁面。</p>
                     <img src={l}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.4</strong> 右圖為註冊頁面，自行輸入帳號與密碼即可使用本網頁。</p>
+                    <p><strong>3.3.4</strong> 註冊頁面，自行輸入帳號與密碼即可使用本網頁。</p>
                     <img src={m}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.5</strong> 右圖為新增日記頁面，透過選取日期，即可在當日新增日記。</p>
+                    <p><strong>3.3.5</strong> 新增日記頁面，透過選取日期，即可在當日新增日記。</p>
                     <img src={n}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.6</strong> 右圖為修改日記頁面，可以透過選擇日期來查看、修改或刪除該日期的日記。</p>
+                    <p><strong>3.3.6</strong> 修改日記頁面，可以透過選擇日期來查看、修改或刪除該日期的日記。</p>
                     <img src={o}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>3.3.7</strong> 右圖為登入狀態的監控，透過setInterval()方法來實作每秒監控登入狀態。</p>
+                    <p><strong>3.3.7</strong> 登入狀態的監控，透過setInterval()方法來實作每秒監控登入狀態。</p>
                     <img src={p}></img>
                 </div>
                 <br/>
@@ -197,7 +197,7 @@ function Portfolio(){
                 <br/>
                 這是我第一次獨立開發包含前端、後端及資料庫操作的專案。在開發過程中，我實現了資料庫的新增、查看、修改、刪除操作。登入功能則簡單地將使用者輸入的資料與資料庫中的資料進行比對，來確認用戶身份。
                 在設計介面時，我強化了對 CSS 的運用，包括頁面布局、按鈕的互動設計等。這次專案也使我學習到 PHP 的 session 管理，特別是對安全性和資料存取的考量。
-                還有如何運用 JavaScript 的 setInterval() 方法來檢查登入狀態，保證了用戶體驗的流暢度。這次的開發經驗，使我對全端開發有了初步的認識，為日後的全端開發工作奠定基礎。
+                還有如何運用 JavaScript 的 setInterval() 方法來檢查登入狀態，保證了用戶體驗的流暢度。
                 
                 <br/>
                 <br/>
@@ -220,17 +220,17 @@ function Portfolio(){
                 <b>4.3 成果</b>
                 <br/>
                 <div className='image'>
-                    <p><strong>4.3.1</strong> 右圖為LSTM主要兩要件，前向傳播與後向傳播的程式碼</p>
+                    <p><strong>4.3.1</strong> LSTM主要兩要件，前向傳播與後向傳播的程式碼</p>
                     <img src={q}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>4.3.2</strong> 右圖是預測值與真實值的比較，可以發現僅有一些資料的預測值較接近真實值，大部分都沒成功預測。</p>
+                    <p><strong>4.3.2</strong> 預測值與真實值的比較，可以發現僅有一些資料的預測值較接近真實值，大部分都沒成功預測。</p>
                     <img src={s}></img>
                 </div>
                 <br/>
                 <div className='image'>
-                    <p><strong>4.3.3</strong> 右圖是進行訓練時的損失值，看起來沒有什麼問題，但預測時的準確度卻不高，從此即可判斷出發生過擬合的情況。</p>
+                    <p><strong>4.3.3</strong> 進行訓練時的損失值，看起來沒有什麼問題，但預測時的準確度卻不高，從此即可判斷出發生過擬合的情況。</p>
                     <img src={r}></img>
                 </div>
                 <br/>

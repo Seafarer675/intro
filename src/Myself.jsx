@@ -10,9 +10,8 @@ function MySelf(){
             婚姻狀況 | 未婚 <br/> 兵役狀況 | 未役 <br/>手機 | 0958385965 <br/>
             戶籍地址 | 臺中市沙鹿區自立路212號 <br/> 通訊地址 | 臺中市沙鹿區自立路212號 <br/>
             E-mail | willie77092@gmail.com <br/></p>
-            <img src={a}></img>
-
         </div>
+         <img className="myself_image" src={a}></img>
         
     </div>
 }
